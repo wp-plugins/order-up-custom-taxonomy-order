@@ -3,7 +3,7 @@
  * @package Order Up!
  */
 /*
-Plugin Name: Custom Post Order
+Plugin Name: Custom Taxonomy Order
 Plugin URI: http://drewgourley.com/order-up-custom-ordering-for-wordpress/
 Description: Allows for the ordering of categories and custom taxonomy terms through a simple drag-and-drop interface.
 Version: 2.0
@@ -190,7 +190,7 @@ function customtaxorder() {
 			<?php } ?>
 		</div>
 		<?php } else { ?>
-		<p><?php _e('No posts found', 'customtaxorder'); ?></p>
+		<p><?php _e('No terms found', 'customtaxorder'); ?></p>
 		<?php } ?>
 	</form>
 	<form method="post" action="options.php">
